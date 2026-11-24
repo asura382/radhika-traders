@@ -1,0 +1,1 @@
+import {Link} from 'react-router-dom';export default function NotFound(){return <section className="not-found section-pad"><span className="eyebrow">404 / PAGE NOT FOUND</span><h1>This page isn't<br/><em>in the collection.</em></h1><Link className="button button-gold" to="/">Return to homepage</Link></section>}
